@@ -4,7 +4,7 @@
 Projekt do zapisywania danych giełdowych, portfeli inwestycyjnych i przewidywań analityków. Wybraliśmy PostgreSQL, bo ma fajne funkcje okna i łatwo się pisze triggery.
 
 ## Baza i tabele
-Zrobiliśmy to w 3NF, żeby uniknąć powtórzeń. Mamy tabele na uzytkownikow, spolki, historie notowan (ceny dzienne), portfele, sklad tych portfeli (wiele do wielu wiec tabela laczaca) i na prognozy analitykow.
+Zrobiliśmy to w 3NF, żeby uniknąć powtórzeń. Mamy tabele na uzytkownikow, spółki, historie notowań (ceny dzienne), portfele, sklad tych portfeli (wiele do wielu wiec tabela laczaca) i na prognozy analitykow.
 
 ## Schemat (ERD)
 ```mermaid
