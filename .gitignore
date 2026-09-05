@@ -1,0 +1,21 @@
+# Logs
+*.log
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Database dumps and backups
+*.dump
+*.sql.bak
+*.backup
+
+# Environment variables and secrets
+*.env
+.env.*
